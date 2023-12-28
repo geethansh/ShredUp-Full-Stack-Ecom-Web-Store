@@ -9,7 +9,7 @@ import { Navigate } from 'react-router-dom';
 
 const MainCarousel = () => {
     //const navigate
-    const items = MainCarouselData.map((item)=><img className='cursor-pointer' role='presentation' src={item.image} alt=""/>)
+    const items = MainCarouselData.map((item)=><img className='cursor-pointer -z-40' role='presentation' src={item.image} alt=""/>)
     
    return( 
     <AliceCarousel
